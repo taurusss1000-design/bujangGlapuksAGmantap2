@@ -434,7 +434,7 @@ end
 local Resources = nil
 pcall(function()
     local src = game:HttpGet(
-        "https://raw.githubusercontent.com/ahmadlagi889-commits/tempek-gag2/main/resources.lua",
+        "https://raw.githubusercontent.com/taurusss1000-design/bujangGlapuksAGmantap2/refs/heads/main/resources.lua",
         true
     )
     if src and #src > 100 then Resources = loadstring(src)() end
